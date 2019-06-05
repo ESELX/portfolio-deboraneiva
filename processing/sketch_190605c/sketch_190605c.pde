@@ -8,7 +8,7 @@ void setup() {
 }
 
 void draw() {
-  stroke(200);
+  stroke(250);
   if (mousePressed == true) {
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
